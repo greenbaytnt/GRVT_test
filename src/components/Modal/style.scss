@@ -1,2 +1,19 @@
 .modal {
+    background: white;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.modal-overlay {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
 }
